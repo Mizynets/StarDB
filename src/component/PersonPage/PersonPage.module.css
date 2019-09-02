@@ -1,0 +1,12 @@
+.listPage{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 970px){
+    .listPage{
+       flex-direction: column;
+    }
+}

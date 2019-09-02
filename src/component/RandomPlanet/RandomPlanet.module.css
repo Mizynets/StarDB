@@ -1,0 +1,53 @@
+.Random__planet{
+    display: flex;
+    padding: 1rem;
+    border-radius: 5px;
+    background: #2B2A2B;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.Img__block img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+.Planet__info{
+    padding: 1rem;
+}
+.Planet__info h4{
+    color: aqua;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 1rem;
+    
+}
+
+.List{
+    margin-left: 1.5rem;
+    margin-top: .5rem;
+}
+
+.Item{
+    border-top: solid 1px rgb(110, 110, 110);
+    padding: .4rem .6rem; 
+}
+
+.span {
+    color: white;
+}
+
+.term{
+    color: blueviolet;
+}
+
+@media screen and (max-width: 550px){
+    .Random__planet{
+        flex-direction: column;
+        width: fit-content;
+        margin: 2rem auto;
+    }
+    .Planet__info{
+        text-align: center;
+    }
+}

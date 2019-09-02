@@ -1,0 +1,12 @@
+.List{
+    display: flex;
+    flex-direction: column;
+}
+.Item{
+   margin-top: 1rem;
+}
+
+.Item__link{
+ color: rgb(245, 245, 179);
+ font-size: 1.3rem
+}

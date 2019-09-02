@@ -1,0 +1,16 @@
+.List{
+    display: flex;
+    align-items: center;
+}
+.Item{
+    margin-right: 3rem;
+}
+
+.Item:last-child{
+    margin-right: 0;
+}
+
+.Item__link{
+ color: rgb(245, 245, 179);
+ font-size: 1.3rem
+}

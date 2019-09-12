@@ -1,6 +1,6 @@
 import React from 'react';
 import  classes from './StarshipPage.module.css';
-import { StarshipList } from '../sw-pages/ItemLists';
+import { StarshipList } from '../../component/sw-pages/ItemLists';
 import { withRouter } from 'react-router-dom';
 
 const StarshipPage = ({history}) => {

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import RandomPlanet from './component/RandomPlanet/RandomPlanet';
-import PersonPage from './component/PersonPage/PersonPage';
-import PlanetPage from './component/PlanetPage/PlanetPage';
-import StarshipPage from './component/StarshipPage/StarshipPage';
+import PersonPage from './container/PersonPage/PersonPage';
+import PlanetPage from './container/PlanetPage/PlanetPage';
+import StarshipPage from './container/StarshipPage/StarshipPage';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import { StarshipDetails } from './component/sw-pages/ItemsDetails';
 import Layout from './component/Layout/Layout';

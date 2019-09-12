@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './PersonPage.module.css';
-import { PersonList } from '../sw-pages/ItemLists';
-import { PersonDetails } from '../sw-pages/ItemsDetails';
+import { PersonList } from '../../component/sw-pages/ItemLists';
+import { PersonDetails } from '../../component/sw-pages/ItemsDetails';
 
 const PersonPage = ({history, match}) => {
 

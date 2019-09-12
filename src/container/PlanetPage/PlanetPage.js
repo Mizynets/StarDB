@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import classes from './PlanetPage.module.css';
 import SwapiServices from '../../services/SwapiServices';
-import { PlanetList } from '../sw-pages/ItemLists';
-import { PlanetDetails } from '../sw-pages/ItemsDetails';
+import { PlanetList } from '../../component/sw-pages/ItemLists';
+import { PlanetDetails } from '../../component/sw-pages/ItemsDetails';
 
 class PlanetPage extends Component {
 
